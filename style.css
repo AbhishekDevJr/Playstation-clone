@@ -1,0 +1,26 @@
+body {
+    padding : 0px;
+    margin : 0px;
+}
+
+.black-strip-sony {
+    
+    height : 4.7vh;
+    display : flex;
+    background-color : black;
+    color : white;
+    justify-content : flex-end;
+    align-items : center;
+
+}
+
+.black-strip-sony div {
+    
+    background-image : url(./sony_logo.svg);
+    width : 5vw;
+    height : 3vh;
+    background-repeat : no-repeat;
+    margin-top : 1vh;
+    
+}
+
