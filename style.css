@@ -24,3 +24,89 @@ body {
     
 }
 
+.nav-items-container {
+
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    padding-left : 1.7vw;
+    padding-right : 1.7vw;
+    padding-top : 0.7vh;
+
+}
+
+.item1Parent {
+
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+    font-family : helvetica,arial,sans-serif;
+    font-size : 12px;
+    letter-spacing: 0.5px;
+    font-weight : 600;
+
+}
+
+.item1 svg {
+
+    width : 4vw;
+    height : 8vh;
+
+}
+
+.item1Parent button {
+
+    background-color : inherit;
+    border : none;
+    cursor : pointer;
+
+}
+
+.item2Parent {
+
+    width : 9vw;
+    border : 1px solid blue;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+
+}
+
+.item2Parent svg {
+
+    width : 1.8vw;
+    height : 4vh;
+    
+
+}
+
+.item2Parent button {
+
+    background-color : inherit;
+    border : none;
+    cursor : pointer;
+    
+
+}
+
+.item2Parent a {
+
+    text-decoration : none;
+    color : white;
+    background-color : #0068bd;
+    font-family : arial,sans-serif;
+
+
+}
+
+.testButton {
+
+    border : 3px solid cyan;
+
+}
+
+
+
