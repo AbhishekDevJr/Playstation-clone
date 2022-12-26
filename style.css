@@ -67,7 +67,6 @@ body {
 .item2Parent {
 
     width : 9vw;
-    border : 1px solid blue;
     display : flex;
     flex-direction : row;
     justify-content : space-between;
@@ -85,26 +84,59 @@ body {
 
 .item2Parent button {
 
-    background-color : inherit;
-    border : none;
     cursor : pointer;
-    
 
 }
 
 .item2Parent a {
 
     text-decoration : none;
-    color : white;
-    background-color : #0068bd;
+    color : black;  
     font-family : arial,sans-serif;
-
+    color : white;
+    font-size : 14.5px;
+    font-weight : 500;
+    letter-spacing: 0.5px;
 
 }
 
 .testButton {
 
-    border : 3px solid cyan;
+    width : 4.95vw;
+    background-color : #0068bd; 
+    border : none;
+    height : 3.4vh;
+    border-radius : 12px;
+    margin-top : -1vh;
+
+}
+
+.testButton2 {
+
+    border : none;
+    background-color : inherit;
+
+}
+
+.testButton:hover {
+    background-color : #004883;
+}
+
+.banner1-container {
+
+    background-image : url(./GowBanner.webp);
+    background-repeat : no-repeat;
+    background-size: contain;
+    height : 76vh;
+
+}
+
+.banner1-container a {
+
+    text-decoration : none;
+    color : white;
+    display : block;
+    height : 76vh;
 
 }
 
