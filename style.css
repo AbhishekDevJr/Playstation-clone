@@ -33,6 +33,9 @@ body {
     padding-left : 1.7vw;
     padding-right : 1.7vw;
     padding-top : 0.7vh;
+    position : fixed;
+    background-color : white;
+    width : 96vw;
 
 }
 
@@ -46,6 +49,19 @@ body {
     font-size : 12px;
     letter-spacing: 0.5px;
     font-weight : 600;
+
+}
+
+.item1Parent div {
+    
+    margin-top : -1vh;
+
+}
+
+.item1Parent div:hover, .item1Parent button:hover {
+
+    color : #0068bd;
+    cursor : pointer;
 
 }
 
@@ -123,7 +139,7 @@ body {
 }
 
 .latest-game-banner {
-    margin-top : -2.7vh;
+    margin-top : 2vh;
 }
 
 .banner1-container {
