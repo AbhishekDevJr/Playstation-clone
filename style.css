@@ -122,12 +122,18 @@ body {
     background-color : #004883;
 }
 
+.latest-game-banner {
+    margin-top : -2.7vh;
+}
+
 .banner1-container {
 
-    background-image : url(./GowBanner.webp);
+    background : linear-gradient(to left, transparent, rgba(0, 0, 0, 0.225)),url(./GowBanner.webp);
+    
     background-repeat : no-repeat;
     background-size: contain;
     height : 76vh;
+    margin-top : 2vh;
 
 }
 
@@ -137,6 +143,37 @@ body {
     color : white;
     display : block;
     height : 76vh;
+    padding-top : 45vh;
+    padding-left : 6.5vw;
+    font-family : Arial,sans-serif;
+
+}
+
+.banner1-contents span {
+
+    display : block;
+    font-size : 38px;
+    font-weight : 0;
+    letter-spacing : 0.05vw;
+    
+}
+
+.banner1-contents p {
+
+    line-height : 3vh;
+    letter-spacing : 0.02vw;
+
+}
+
+.banner1-contents button {
+    
+    height : 5.5vh;
+    border-radius : 25px;
+    width : 9vw;
+    font-weight : 600;
+    font-size : 16px;
+    border : none;
+    margin-top : 3vh;
 
 }
 
