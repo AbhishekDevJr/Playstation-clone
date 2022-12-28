@@ -11,6 +11,7 @@ body {
     color : white;
     justify-content : flex-end;
     align-items : center;
+    padding-right : 0.6vw;
 
 }
 
@@ -33,9 +34,8 @@ body {
     padding-left : 1.7vw;
     padding-right : 1.7vw;
     padding-top : 0.7vh;
-    position : fixed;
     background-color : white;
-    width : 96vw;
+    width : 95vw;
 
 }
 
@@ -87,6 +87,7 @@ body {
     flex-direction : row;
     justify-content : space-between;
     align-items : center;
+    margin-right : -1vw;
 
 }
 
@@ -139,7 +140,7 @@ body {
 }
 
 .latest-game-banner {
-    margin-top : 2vh;
+    margin-top : -2vh;
 }
 
 .banner1-container {
@@ -240,5 +241,17 @@ body {
     border-radius : 20px;
     
 
+}
+
+.stickyTemp { 
+    
+    position : fixed;
+    top : 0;
+    width : 96vw;
+
+}
+
+.tempBanner {
+    margin-top : 8.6vh;
 }
 
